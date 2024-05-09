@@ -1,0 +1,244 @@
+:root {
+    --bg-cinza-claro: #f5f5f5;
+    --bg-azul-claro: #EAF2FD;
+    --font-azul-escuro: #2A7AE4;
+    --font-cinza: #464646;
+}
+
+body {
+    background-color: var(--bg-cinza-claro);
+    font-family: "Raleway", sans-serif;    
+    color: var(--font-cinza);        
+}
+
+.container {
+    margin: 32px 152px 32px 152px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container__lista {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container__lista--logo {
+    margin-right: 5px;
+}
+
+.nav-container__lista--itens {
+    margin-left: 20px;
+}
+
+.fonte-bold {
+    font-weight: bold;
+}
+
+.header {
+    margin-top: 60px;
+    display: flex;
+    top: 10%;
+}
+
+.header-texto__title {
+    font-size: 52px;
+    margin-top: 80px;
+}
+
+.header-texto__text {
+    font-size: 22px;
+    font-weight: regular;
+    margin-top: 24px;
+}
+
+.header-texto__lista {
+    margin-top: 24px;
+    display: flex
+}
+
+.header-texto__lista--itens {
+    display: flex;
+    align-items: center;    
+    margin-right: 40px;
+}
+
+.sobre {
+    background-color: var(--bg-azul-claro);
+}
+
+.sobre-title {
+    padding-top: 40px;
+    font-size: 32px;
+}
+
+.sobre-assinatura,
+.sobre-text {
+    margin-top: 20px;
+}
+
+.sobre-text {
+    width: 70%;
+}
+
+.sobre-assinatura {
+    padding-bottom: 40px;
+}
+
+.skills-hobbies__title {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 32px;    
+    margin-bottom: 32px;
+}
+
+.skills-hobbies__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    height: 176px;
+    width: 174px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.block-list {
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+.block-icon {
+    margin-bottom: 4px;
+    color: var(--font-azul-escuro);
+}
+
+.formacao-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacao {
+    background-color: var(--bg-azul-claro);
+}
+
+.formacao-title {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 52px;
+}
+
+.card {
+    height: 347px;
+    width: 368px;    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    height: 130px;
+    width: 192px;
+}
+
+.formacao-lista {
+    padding-bottom: 52px;
+}
+
+.formacao-curso {
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.experiencia-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.experiencia-card {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experiencia-card__title {
+    font-size: 22px;
+}
+
+.btn-repo {
+    color: var(--font-azul-escuro);
+    border: 1px solid var(--font-azul-escuro);
+    margin-right: 12px;
+}
+
+.btn-demo {
+    color: white;
+    background-color: var(--font-azul-escuro);
+    border: 1px solid var(--font-azul-escuro);
+}
+
+.btn-size {
+    padding: 16px 16px;
+}
+
+.lista-botoes {
+    margin-top: 12px;
+}
+
+.experiencia-card__desc {
+    margin-top: 12px;
+}
+
+.contato {
+    background-color: var(--bg-azul-claro);
+}
+
+.contato-container {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 52px;
+}
+
+.contato-img {
+    height: 593px;
+    width: 464px;
+}
+
+.contato-form__title {
+    font-size: 32px;    
+}
+
+.contato-form {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    width: 100%;
+}
+
+.form-input {
+    border-radius: 2px;
+    height: 56px;
+    border-bottom: 1px solid var(--font-cinza);
+}
+
+.contato-form__btn {
+    color: white;
+    background-color: var(--font-azul-escuro);
+    width: 30%;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+
+
